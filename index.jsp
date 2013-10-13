@@ -4,11 +4,11 @@
 		 if  (request.getParameter("url") == null )
 		 		var = "Help";
 		 else
-		 		var =request.getParameter("url")
+		 		var =request.getParameter("url");
 
 
 
-if (  var == "login" ) 
+if ( var == "login" ) 
 		{ %>
 			<%@include file="includes/login/index.jsp"  %>
 <%			}
