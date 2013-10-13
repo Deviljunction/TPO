@@ -7,7 +7,7 @@
         	content_page = "default";
         else
         	content_page = request.getParameter("url");
-        currentpage =content_page ;
+        String currentpage =content_page ;
    %>
 
 <jsp:include page="includes/<%= content_page %>/index.jsp" flush="true">  
