@@ -7,12 +7,17 @@
         	content_page = "default";
         else
         	content_page = request.getParameter("url");
+        currentpage =content_page ;
    %>
 
-	<jsp:include page="includes/<%= content_page %>/index.jsp">
-      <jsp:param name="type1" value="1" >
-      </jsp:param>  
-	 </jsp:include>
+<jsp:include page="includes/<%= content_page %>/index.jsp" flush="true">  
+  <jsp:param name="currentpage" >  
+      <jsp:attribute name="value" >  
+         <c:out value="${curentPage}"/>  
+      </jsp:attribute>  
+  </jsp:param>  
+</jsp:include>  
+
 
 <%@include file="includes/footer.jsp"%>
 
