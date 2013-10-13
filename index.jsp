@@ -1,5 +1,12 @@
 <jsp:include page=="includes/head.jsp">
-<%	if ( request.getParameter("url") == "login" ) 
+<%	
+		 String var= " ";
+		 if  (request.getParameter("url") == null )
+		 		var = "Help";
+		 else
+		 		var =request.getParameter("url")
+
+if (  var == "login" ) 
 		{ %>
 			<jsp:include page="includes/login/index.jsp"/>
 <%			}

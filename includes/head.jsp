@@ -16,7 +16,7 @@
     <div class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <a href="../" class="navbar-brand">Bootswatch</a>
+          <a href="../" class="navbar-brand">Training And Placement Ofiice </a>
           <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -26,7 +26,7 @@
         <div class="navbar-collapse collapse" id="navbar-main">
           <ul class="nav navbar-nav">
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Themes <span class="caret"></span></a>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">About<span class="caret"></span></a>
               <ul class="dropdown-menu" aria-labelledby="themes">
                 <li><a tabindex="-1" href="../default/">Default</a></li>
                 <li class="divider"></li>
@@ -47,10 +47,10 @@
               <a href="../help/">Help</a>
             </li>
             <li>
-              <a href="http://news.bootswatch.com">Blog</a>
+              <a href="http://news.bootswatch.com">Register</a>
             </li>
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="download">Download <span class="caret"></span></a>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="download">FAQ <span class="caret"></span></a>
               <ul class="dropdown-menu" aria-labelledby="download">
                 <li><a tabindex="-1" href="./bootstrap.min.css">bootstrap.min.css</a></li>
                 <li><a tabindex="-1" href="./bootstrap.css">bootstrap.css</a></li>
