@@ -12,8 +12,7 @@
 
 <jsp:include page="includes/<%= content_page %>/index.jsp" flush="true">  
   <jsp:param name="currentpage" >  
-      <jsp:attribute name="value" >  
-         <c:out value="${curentPage}"/>  
+      <jsp:attribute name="value" >   
       </jsp:attribute>  
   </jsp:param>  
 </jsp:include>  
