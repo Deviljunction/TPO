@@ -1,12 +1,12 @@
 
       <div class="bs-docs-section">
-       
+       <br/><br/><br/>
         <div class="row">
           <div class="col-lg-6">
             <div class="well">
               <form class="bs-example form-horizontal">
                 <fieldset>
-                  <legend>Login Form >
+                  <legend>Login Form </legend>
                   <div class="form-group">
                     <label for="inputEmail" class="col-lg-2 control-label">Email</label>
                     <div class="col-lg-10">
