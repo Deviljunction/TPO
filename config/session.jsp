@@ -1,5 +1,6 @@
 <%@ page import="java.io.*,java.util.*" %>
 <%
+   session.setAttribute("username","Annon");
    // Get session creation time.
    Date createTime = new Date(session.getCreationTime());
    // Get last access time of this web page.
