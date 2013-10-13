@@ -1,4 +1,4 @@
-<jsp:include page="includes/head.jsp">
+<%@include file="includes/head.jsp" %>
 <%	
 		 String var= " ";
 		 if  (request.getParameter("url") == null )
@@ -10,17 +10,17 @@
 
 if (  var == "login" ) 
 		{ %>
-			<jsp:include page="includes/login/index.jsp"/>
+			<%@include file="includes/login/index.jsp"  %>
 <%			}
 		else
 			{
  %>
- 			<jsp:include page="includes/content.jsp" />
+ 			<%@include file= "includes/content.jsp" %>
 <% 		
 		}
 
  %>
- <jsp:include page="includes/footer.jsp"/>
+<%@include file="includes/footer.jsp"%>
 
 
       
