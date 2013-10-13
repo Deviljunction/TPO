@@ -2,20 +2,41 @@
 
 
   <% 
-        String content_page = "";
+        String content_page = " ";
         if (request.getParameter("url") == null ) 
         	content_page = "default";
         else
         	content_page = request.getParameter("url");
-        String currentpage =content_page ;
+
+      if (content_page == "login"){
    %>
-<%= content_page %>
-<jsp:include page="includes/<%= content_page %>/index.jsp" flush="true">  
+<jsp:include page="includes/login/index.jsp" flush="true">  
   <jsp:param name="currentpage" >  
       <jsp:attribute name="value" >   
       </jsp:attribute>  
   </jsp:param>  
 </jsp:include>  
+<% 
+	}
+	 if (content_page == "register"){
+%>
+<jsp:include page="includes/login/index.jsp" flush="true">  
+  <jsp:param name="currentpage" >  
+      <jsp:attribute name="value" >   
+      </jsp:attribute>  
+  </jsp:param>  
+</jsp:include>  
+<% 
+	}
+	 if (content_page == "about"){
+%>
+<jsp:include page="includes/about/index.jsp" flush="true">  
+  <jsp:param name="currentpage" >  
+      <jsp:attribute name="value" >   
+      </jsp:attribute>  
+  </jsp:param>  
+</jsp:include>  
+<% } %>
 
 
 <%@include file="includes/footer.jsp"%>
