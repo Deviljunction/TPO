@@ -1,23 +1,22 @@
 
       <div class="bs-docs-section">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="page-header">
-              <h1 id="forms">Login Form</h1>
-            </div>
-          </div>
-        </div>
-
+       
         <div class="row">
           <div class="col-lg-6">
             <div class="well">
               <form class="bs-example form-horizontal">
                 <fieldset>
-                  <legend>Legend</legend>
+                  <legend>Login Form >
                   <div class="form-group">
                     <label for="inputEmail" class="col-lg-2 control-label">Email</label>
                     <div class="col-lg-10">
                       <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+                    </div>
+                  </div>
+                    <div class="form-group">
+                    <label for="password" class="col-lg-2 control-label">Password</label>
+                    <div class="col-lg-10">
+                      <input type="password" class="form-control" id="password" placeholder="Password">
                     </div>
                   </div>
                  
