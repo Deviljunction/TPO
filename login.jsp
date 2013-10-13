@@ -13,12 +13,6 @@
 <%@include file="includes/footer.jsp"%>
 
 
-s
-
-
-      
-
-
      
 
     

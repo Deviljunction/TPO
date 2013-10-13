@@ -6,6 +6,8 @@
    if (session.isNew()){
       session.setAttribute("user","Annon");
    } 
+   else
+      session.setAttribute("user","me");
 
   
 %>
