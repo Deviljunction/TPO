@@ -10,6 +10,7 @@
 
       if (content_page == "login"){
    %>
+
 <jsp:include page="includes/login/index.jsp" flush="true">  
   <jsp:param name="currentpage" >  
       <jsp:attribute name="value" >   
@@ -20,7 +21,7 @@
 	}
 	 if (content_page == "register"){
 %>
-<jsp:include page="includes/login/index.jsp" flush="true">  
+<jsp:include page="includes/register/index.jsp" flush="true">  
   <jsp:param name="currentpage" >  
       <jsp:attribute name="value" >   
       </jsp:attribute>  
@@ -37,7 +38,6 @@
   </jsp:param>  
 </jsp:include>  
 <% } %>
-
 
 <%@include file="includes/footer.jsp"%>
 
