@@ -26,16 +26,16 @@
         <div class="navbar-collapse collapse" id="navbar-main">
           <ul class="nav navbar-nav">
             <li class="dropdown">
-              <a  href="index.jsp/?url=about" >About</a>             
+              <a  href="index.jsp?url=about" >About</a>             
             </li>
             <li>
-              <a href="index.jsp/?url=help">Help</a>
+              <a href="index.jsp?url=help">Help</a>
             </li>
           </ul>
 
           <ul class="nav navbar-nav navbar-right">
-            <li> <a href="index.jsp/?url=register">Register</a></li>
-            <li><a href="index.jsp/?url=login">Login</a></li>
+            <li> <a href="index.jsp?url=register">Register</a></li>
+            <li><a href="index.jsp?url=login">Login</a></li>
           </ul>
 
         </div>
