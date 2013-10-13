@@ -10,6 +10,7 @@
 
 if ( var == "login" ) 
 		{ 
+	out.println("Hello <b>"+request. getParameter("url")+"</b>!");
 %>
 			<%@include file="includes/login/index.jsp"  %>
 <%			}
