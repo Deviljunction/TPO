@@ -1,23 +1,18 @@
 <%@include file="includes/head.jsp" %>
-<%	
-		 String var= " ";
-		 if  (request.getParameter("url") == null )
-		 		var = "Help";
-		 else
-		 		var =request.getParameter("url");
 
 
+  <% 
+        String content_page = request.getParameter("url");
 
-if ( var != "login" ) 
-		{ 
-			@include file="includes/login/index.jsp" 
-		}
-		else
-		{
-			@include file= "includes/content.jsp" 
-		}
+        if (content_page == null)
+        {
+            content_page = "default";
+        }
 
- %>
+    %>
+    <jsp:include page="includes/<%= content_page %>/index.jsp">
+
+
 <%@include file="includes/footer.jsp"%>
 
 
