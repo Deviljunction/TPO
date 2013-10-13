@@ -7,9 +7,13 @@
       </jsp:attribute>  
   </jsp:param>  
 </jsp:include>  
+ <%= session.getAttribute( "user" ) %>
 
 
 <%@include file="includes/footer.jsp"%>
+
+
+s
 
 
       
