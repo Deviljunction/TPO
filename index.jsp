@@ -8,9 +8,9 @@
         else
         	content_page = request.getParameter("url");
    %>
-   
+
 	<jsp:include page="includes/<%= content_page %>/index.jsp">
-      <jsp:param name="type1" value=<%=str%> >
+      <jsp:param name="type1" value="1" >
       </jsp:param>  
 	 </jsp:include>
 
