@@ -9,7 +9,7 @@
         	content_page = request.getParameter("url");
         String currentpage =content_page ;
    %>
-
+<%= content_page %>
 <jsp:include page="includes/<%= content_page %>/index.jsp" flush="true">  
   <jsp:param name="currentpage" >  
       <jsp:attribute name="value" >   
