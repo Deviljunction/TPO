@@ -1,6 +1,6 @@
 <%@include file="includes/head.jsp" %>
 
-<jsp:include page="includes/login/index.jsp" flush="true">  
+<jsp:include page="includes/about/index.jsp" flush="true">  
   <jsp:param name="currentpage" >  
       <jsp:attribute name="value" >   
       </jsp:attribute>  

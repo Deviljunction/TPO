@@ -8,7 +8,7 @@
         else
         	content_page = request.getParameter("url");
    %>
-<jsp:include page="includes/register/index.jsp" flush="true">  
+<jsp:include page="includes/help/index.jsp" flush="true">  
   <jsp:param name="currentpage" >  
       <jsp:attribute name="value" >   
       </jsp:attribute>  
