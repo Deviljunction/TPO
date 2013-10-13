@@ -9,12 +9,13 @@
 
 
 if ( var == "login" ) 
-		{ %>
+		{ 
+%>
 			<%@include file="includes/login/index.jsp"  %>
 <%			}
 		else
 			{
- %>
+%>
  			<%@include file= "includes/content.jsp" %>
 <% 		
 		}
