@@ -1,10 +1,6 @@
-<%
- include file="includes/head.jsp";
-
-	if ( request.getParameter("url") == "login" ) 
-		{
-
- %>
+<jsp:include page=="includes/head.jsp">
+<%	if ( request.getParameter("url") == "login" ) 
+		{ %>
 			<jsp:include page="includes/login/index.jsp"/>
 <%			}
 		else
