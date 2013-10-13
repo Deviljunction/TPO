@@ -2,7 +2,7 @@
 
 
   <% 
-        String content_page = ""
+        String content_page = "";
         if (request.getParameter("url") == null ) 
         	content_page = "default";
         else
