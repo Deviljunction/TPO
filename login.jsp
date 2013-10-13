@@ -1,3 +1,4 @@
+<%@include file="config/session.jsp" %>
 <%@include file="includes/head.jsp" %>
 
 <jsp:include page="includes/login/index.jsp" flush="true">  
